@@ -1,1 +1,1 @@
-![image](https://github.com/umarurize/umaru-cdn/main/jsdeliver.svg)
+![](https://data.jsdelivr.com/v1/package/gh/moezx/cdn/badge)
