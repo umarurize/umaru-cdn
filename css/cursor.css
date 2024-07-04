@@ -1,0 +1,10 @@
+/** 普通指针样式**/ 
+body {
+    cursor: url(https://cdn.jsdelivr.net/gh/umarurize/umaru-cdn@2.0/cursor/normal.cur), default;
+    }
+     
+    /** 链接指针样式**/ 
+    a:hover{cursor:url(https://cdn.jsdelivr.net/gh/umarurize/umaru-cdn@2.0/cursor/ayuda.cur), pointer;}
+    
+    /** 文本指针样式**/ 
+    p:hover{cursor:url(https://cdn.jsdelivr.net/gh/umarurize/umaru-cdn@2.0/cursor/texto.cur), text;}
