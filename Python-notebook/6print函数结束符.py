@@ -2,6 +2,6 @@
 
 # 结束符号，在输出后面加逗号，再加end=...
 
-print('world', end = '\n')
+print('world', end = '\n') # 结尾不会留有任何东西
 print('world', end = '.....')
 
