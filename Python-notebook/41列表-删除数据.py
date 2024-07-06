@@ -20,7 +20,7 @@ print(name_list1)
 
 # 2.pop()
 name_list2 = ['Tom', 'Lily', 'Rose']
-del_name = name_list2.pop()
+del_name = name_list2.pop() # 返回 Rose，因为 pop() 不加下标，会删除最后一个数据，并返回该数据
 print(del_name)
 del_name1 = name_list2.pop(1)
 print(del_name1)
