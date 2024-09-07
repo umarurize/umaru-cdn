@@ -34,4 +34,17 @@ print(dog2.tooth) # return 10
 
 '''
 B.修改类属性
+    类属性只能通过类对象修改，不能通过实例对象修改；如果通过实例对象修改类属性，那意味着创建了一个类属性
 '''
+# 修改类属性
+Dog.tooth = 12
+
+print(Dog.tooth) # return 12
+print(dog1.tooth) # return 12
+print(dog2.tooth) # return 12
+
+# 测试通过实例对象修改类属性会怎样
+dog1.tooth = 20
+print(dog1.tooth) # return 20 -- 实际上是创建了一个新的同名实例属性
+print(Dog.tooth) # return 12 -- 类属性没有的到修改
+print(dog2.tooth) # return 12
